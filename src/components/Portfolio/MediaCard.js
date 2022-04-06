@@ -16,6 +16,7 @@ export default function MediaCard(props) {
         alt="green iguana"
         height="200"
         image={img}
+        className='media'
       />
       <CardActions className='design'>
       <a href={link1}>

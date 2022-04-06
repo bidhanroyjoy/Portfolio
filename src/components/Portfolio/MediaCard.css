@@ -1,6 +1,7 @@
 .box{
     display: flex;
     margin:10px;
+    object-fit: cover;
 }
 .design{
     /* margin: 10px; */

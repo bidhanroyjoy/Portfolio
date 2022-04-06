@@ -6,7 +6,8 @@ import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 // import boy from "../../img/boy.png";
-import boy from "../../img/avatar2.png";
+// import boy from "../../img/avatar2.png";
+import boy from "../../img/avatar4.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -16,12 +17,10 @@ import LinkedIn from "../../img/linkedin.png";
 import Twitter from "../../img/twitter.png";
 import Instagram from "../../img/instagram.png";
 import Resume from './resume.pdf';
-// import { themeContext } from "../../Context";
-// import { motion } from "framer-motion";
 import {motion} from 'framer-motion/dist/es/index'
 import { Link } from "react-scroll";
 const Intro = () => {
-  // Transition
+
   const transition = { duration: 2, type: "spring" };
 
   // context
@@ -33,7 +32,6 @@ const Intro = () => {
       {/* left name side */}
       <div className="i-left">
         <div className="i-name">
-          {/* yahan change hy darkmode ka */}
           <span>Hy! I Am</span>
           <span>Bidhan Roy</span>
           <span>

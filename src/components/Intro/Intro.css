@@ -39,13 +39,13 @@
     font-size: 17px;
     margin: 2px;
   }
-  .crop{
+  /* .crop{
     width: 6rem;
     height: 2rem;
     font-size: 15px;
     padding: 12px;
     margin: 2px;
-  }
+  } */
   .i-icons {
     margin-top: 3rem;
     display: flex;
@@ -72,8 +72,8 @@
     height: 47%;
     position: absolute;
     z-index: 0.5;
-    top: 18%;
-    left: 10%;
+    top: 15%;
+    left: 19%;
     border-radius: 10px;
     border-width: 0cm;
     border-color: #fdc50f;
@@ -87,7 +87,7 @@
   .i-right > :nth-child(2) {
     top: -6.4rem;
     transform: scale(0.67);
-    left: -4rem;
+    left: -3rem;
   }
   .i-right > :nth-child(3) {
     transform: scale(1.4);
