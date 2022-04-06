@@ -8,20 +8,21 @@ import CardMedia from '@mui/material/CardMedia';
 export default function MediaCard(props) {
   const { img,link1,link2 }=props.project
   return (
-    <div className='container'>
+    <div className='box'>
     <Card sx={{ maxWidth: 370 }}>
       <CardMedia
         component="img"
+        data-aos="zoom-in-down"
         alt="green iguana"
         height="200"
         image={img}
       />
       <CardActions className='design'>
       <a href={link1}>
-          <button className="button s-button">Source Code</button>
+          <button className="button">Source</button>
         </a>
       <a href={link2}>
-          <button className="button s-button">View</button>
+          <button className="button ">View</button>
         </a>
         {/* <Button size="small">Share</Button>
         <Button size="small">Learn More</Button> */}

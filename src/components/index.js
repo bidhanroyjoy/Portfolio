@@ -10,6 +10,9 @@ import Services from "./Services/Services";
 import Testimonial from "./Testimonials/Testimonial";
 import Toogle from "./Toogle/Toogle";
 import Works from "./Works/Works";
+import Specializing from "./Specializing/Specializing";
+import Qualification from "./Qualification/Qualification";
+
 
 
 export{
@@ -25,4 +28,6 @@ export{
     Testimonial,
     Toogle,
     Works,
+    Specializing,
+    Qualification,
 }

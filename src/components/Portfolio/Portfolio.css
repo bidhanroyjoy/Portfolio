@@ -8,7 +8,6 @@
   background: rgba(255, 255, 255, 0.26);
   position: relative;
   overflow: hidden;
-  /* height: 100vh; */
 }
 
 .portfolio span:nth-of-type(1) {
@@ -18,7 +17,7 @@
 }
 
 .portfolio span:nth-of-type(2) {
-  color: var(--orange);
+  color: #16c79a;
   font-size: 2.5rem;
   font-weight: bold;
   margin-left: 5px;
@@ -32,25 +31,21 @@
   top: 9rem;
   left: 0;
 }
-.view{
+/* .view{
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
   position:relative;
   margin: 10px;
-  
-  /* width: 10px; */
-}
-.testimonial{
+} */
+/* .testimonial{
   display: flex;
   margin-top: 10px;
-  /* flex-direction: column; */
+ 
   align-items: center;
   justify-content: space-evenly;
   padding: 2rem;
-  /* width: 10rem; */
-  /* height: 0rem; */
-  /* styles same as work.css */
+
   background: rgba(255, 255, 255, 0.26);
   border: 7px solid var(--blueCard);
   box-shadow: var(--boxShadow);
@@ -58,11 +53,11 @@
   box-sizing: border-box;
   flex-direction: column;
     justify-content: space-between;
-}
+} */
 .project-detail{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-
+  /* position: absolute; */
   /* flex-wrap: nowrap; */
   background: rgba(255, 255, 255, 0.26);
   /* border: 7px solid var(--blueCard); */

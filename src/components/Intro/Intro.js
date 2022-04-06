@@ -13,6 +13,7 @@ import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
+import Twitter from "../../img/twitter.png";
 import Instagram from "../../img/instagram.png";
 import Resume from './resume.pdf';
 // import { themeContext } from "../../Context";
@@ -50,7 +51,8 @@ const Intro = () => {
         <div className="i-icons">
         <a href="https://github.com/bidhanroyjoy" target="_blank"><img src={Github} alt=""/> </a>
         <a href="https://www.linkedin.com/in/bidhanroyjoy19994/" target="_blank"><img src={LinkedIn} alt="" /></a>
-        <a href="https://github.com/bidhanroyjoy" target="_blank"><img src={Instagram} alt="" /> </a>
+        <a href="https://twitter.com/Bidhanr06168171" target="_blank"><img src={Instagram} alt="" /> </a>
+        {/* <a href="https://github.com/bidhanroyjoy" target="_blank"><img src={Twitter} alt="" /> </a> */}
         </div>
       </div>
       {/* right image side */}

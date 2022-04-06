@@ -10,6 +10,8 @@ import {
   Testimonial,
   Contact,
   Footer,
+  Specializing,
+  Qualification,
 } from "./components";
 
 function App() {
@@ -24,11 +26,13 @@ function App() {
       <Navbar />
       <Intro />
       <Portfolio />
-      <Services />
+      <Specializing />
+      <Qualification />
+      {/* <Services />
       <Experience />
       <Works />
       <Testimonial />
-      <Contact />
+      <Contact /> */}
       <Footer />
     </div>
   );

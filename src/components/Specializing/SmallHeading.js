@@ -1,0 +1,12 @@
+import React from "react";
+
+const SmallHeading = ({ text }) => {
+  return (
+    // <p className="uppercase font-14 bold-600 primaryColor ls-1 text-center mtb-10">
+    <p className="smhead">
+      {text}
+    </p>
+  );
+};
+
+export default SmallHeading;

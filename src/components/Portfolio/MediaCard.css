@@ -1,7 +1,21 @@
-.container{
+.box{
     display: flex;
     margin:10px;
 }
 .design{
-    margin: 10px;
+    /* margin: 10px; */
+    /* margin-top: 3rem; */
+    display: flex;
+    gap: 0rem;
+    background-color: #f7f0e4;
+    justify-content: center;
+    
 }
+
+/* .contain{
+    margin-right: -15px;
+    justify-content: space-between;
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+} */
