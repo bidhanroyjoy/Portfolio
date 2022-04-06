@@ -12,6 +12,7 @@ import {
   Footer,
   Specializing,
   Qualification,
+  Achievement,
 } from "./components";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Portfolio />
       <Specializing />
       <Qualification />
+      <Achievement />
       {/* <Services />
       <Experience />
       <Works />

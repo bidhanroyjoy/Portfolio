@@ -12,8 +12,7 @@ import Toogle from "./Toogle/Toogle";
 import Works from "./Works/Works";
 import Specializing from "./Specializing/Specializing";
 import Qualification from "./Qualification/Qualification";
-
-
+import Achievement from "./Achievement/Achievement";
 
 export{
     Card,
@@ -30,4 +29,5 @@ export{
     Works,
     Specializing,
     Qualification,
+    Achievement,
 }

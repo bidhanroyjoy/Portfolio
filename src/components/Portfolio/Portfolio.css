@@ -57,11 +57,6 @@
 .project-detail{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* position: absolute; */
-  /* flex-wrap: nowrap; */
   background: rgba(255, 255, 255, 0.26);
-  /* border: 7px solid var(--blueCard); */
-  /* box-shadow: var(--boxShadow); */
   border-radius: 20px;
-  /* position: relative; */
 }

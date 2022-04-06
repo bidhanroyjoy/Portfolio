@@ -1,0 +1,35 @@
+.achievement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background: rgba(255, 255, 255, 0.26);
+    position: relative;
+    overflow: hidden;
+    background-color: #fcf6ec;
+    /* background-color: #16c79a; */
+    margin-bottom: 60px;
+  }
+  
+  .achievement span:nth-of-type(1) {
+    color: #16c79a;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .project-detail{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 20px;
+  }
+
+.square{
+    margin-left: 0px;
+    margin-bottom: 12px;
+    display: flex;
+    /* margin:3px; */
+    
+}
