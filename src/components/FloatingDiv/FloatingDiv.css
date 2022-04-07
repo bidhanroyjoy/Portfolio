@@ -7,7 +7,7 @@
     align-items: center;
     padding: 0px 22px 0px 0px;
     height: 4.5rem;
-    margin: 12px 0px 10px 0px;
+    margin: 12px 0px 10px -10px;
   }
   .floatingDiv > img {
     transform: scale(0.4);
@@ -18,5 +18,27 @@
     font-weight: bold;
     color: black;
   }
-  
+  @media screen and (min-width: 1200px){
+      .floatingDiv{
+      margin: -5px 0px 0px -45px;
+    }
+  }
+  @media screen and (max-width: 1200px){
+    .floatingDiv{
+      margin: -25px 0px 0px -32px;
+    }
+  }
+  /* @media only screen and (min-width: 768px){
+    .floatingDiv{
+    
+      display: none;
+    }
+  } */
+  /* @media screen and (min-width: 1200px){
+    .floatingDiv {
+      padding: 0px 22px 0px 0px;
+      margin: 12px 0px 100px 0px;
+    }
+   
+  } */
   
