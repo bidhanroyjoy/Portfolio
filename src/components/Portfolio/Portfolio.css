@@ -60,3 +60,16 @@
   background: rgba(255, 255, 255, 0.26);
   border-radius: 20px;
 }
+
+@media screen and (max-width: 600px) {
+  .portfolio {
+    display:flex;
+    flex-direction: column;
+    margin-top: -950px;
+    /* background-color: #16c79a; */
+  }
+.portfolio .project-detail{
+  display:flex;
+  flex-direction: column;
+}
+}

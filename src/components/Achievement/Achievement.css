@@ -33,3 +33,16 @@
     /* margin:3px; */
     
 }
+
+@media screen and (max-width: 600px) {
+  .achievement{
+    margin-top:-10px;
+    margin-bottom:100px;
+  }
+  .project-detail{
+    display:flex;
+    flex-direction: column;
+    object-fit: cover;
+ }
+  
+}

@@ -17,24 +17,14 @@ import {
 
 function App() {
   return (
-    <div
-      className="App"
-      // style={{
-      //   background: darkMode ? "black" : "",
-      //   color: darkMode ? "white" : "",
-      // }}
-    >
+    <div className="App">
       <Navbar />
       <Intro />
       <Portfolio />
       <Specializing />
       <Qualification />
       <Achievement />
-      {/* <Services />
-      <Experience />
-      <Works />
-      <Testimonial />
-      <Contact /> */}
+
       <Footer />
     </div>
   );

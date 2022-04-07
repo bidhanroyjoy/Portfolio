@@ -5,12 +5,12 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <div className="n-wrapper" id="Navbar">
-      {/* left */}
+
       <div className="n-left">
         <div className="n-name">Bidhan</div>
-        {/* <Toggle /> */}
+       
       </div>
-      {/* right */}
+     
       <div className="n-right">
         <div className="n-list">
           <ul style={{ listStyleType: "none" }}>

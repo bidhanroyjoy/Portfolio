@@ -27,9 +27,13 @@
     gap: 0rem;
   }
   
-  @media screen and (max-width: 480px){
+  @media screen and (max-width: 600px){
     .f-content{
       transform: scale(.5);
+      /* font-size: larger; */
+    }
+    .f-content > :nth-child(1) {
+      font-size:larger;
     }
   }
   

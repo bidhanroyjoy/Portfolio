@@ -48,16 +48,7 @@ const Portfolio = () => {
       <span>Portfolio</span>
       <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
-    {/* <div className='view'>
-    
-      {data.map((item,index)=>{
-          return(
-            <div className='testimonial' key={index}>
-                <img src={item.img} alt=""/>
-      </div>
-          );
-        })}        
-    </div> */}
+ 
     <div className='project-detail'>
         {data.map(project=><Card project={project}/>)}
     </div>

@@ -19,3 +19,9 @@
     display: flex;
     gap: 0rem;
 } */
+/* @media screen and (max-width: 600px) {
+    .box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */
