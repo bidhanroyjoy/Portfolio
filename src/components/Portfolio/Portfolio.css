@@ -73,3 +73,11 @@
   flex-direction: column;
 }
 }
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px){
+  .portfolio {
+    /* display:flex;
+    flex-direction: column; */
+    margin-top: -50px;
+    /* background-color: #16c79a; */
+  }
+}

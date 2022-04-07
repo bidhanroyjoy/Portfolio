@@ -76,4 +76,16 @@
       font-size: 20px;
     } */
   }
-
+  @media only screen and (min-device-width: 1536px) and (max-device-width: 2048px){
+    .container{
+        display: grid;
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    .layout{
+        /* display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-evenly; */
+        margin-left: 170px;
+    }
+  }

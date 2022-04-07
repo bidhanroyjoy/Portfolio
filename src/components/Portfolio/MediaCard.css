@@ -11,6 +11,12 @@
     background-color: #f7f0e4;
     justify-content: center;
 }
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px){
+    .box{
+        margin:25px;
+        width: 100%;
+    }
+}
 
 /* .contain{
     margin-right: -15px;
