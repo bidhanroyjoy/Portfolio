@@ -30,13 +30,20 @@
   }
   @media only screen and (min-device-width: 1080px) and (max-device-width: 1920px){
     .floatingDiv{
-      margin: -5px 0px 0px -150px;
+      /* margin: -5px 0px 0px -150px; */
+      display: none;
     }
-    .floatingDiv > span {
+    /* .floatingDiv > span {
       font-family: sans-serif;
       font-size: 19px;
       font-weight: bold;
       color: black;
+    } */
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1366px){
+    .floatingDiv{
+      /* margin: 0px 0px 0px -150px; */
+      display: none;
     }
   }
   /* @media only screen and (min-width: 768px){

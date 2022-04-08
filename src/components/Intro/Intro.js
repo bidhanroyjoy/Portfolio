@@ -2,8 +2,8 @@ import React from 'react'
 import "./Intro.css";
 
 import "./Intro.css";
-import Vector1 from "../../img/Vector1.png";
-import Vector2 from "../../img/Vector2.png";
+// import Vector1 from "../../img/Vector1.png";
+// import Vector2 from "../../img/Vector2.png";
 
 // import boy from "../../img/avatar5.png";
 import boy from "../../img/avatar4.png";
@@ -52,8 +52,8 @@ const Intro = () => {
       </div>
       
       <div className="i-right">
-        <img src={Vector1} alt="" />
-        <img src={Vector2} alt="" />
+        {/* <img src={Vector1} alt="" />
+        <img src={Vector2} alt="" /> */}
         <img src={boy} alt="" className='crop' />
         
         <motion.img

@@ -162,8 +162,7 @@
         left: 35%;
         border-radius: 10px;
         border-width: 0cm;
-        border-color: #fdc50f;
-        opacity: 0.90;
+     
       }
     }
 
@@ -176,34 +175,17 @@
         left: 40%;
         border-radius: 10px;
         border-width: 0cm;
-        border-color: #fdc50f;
-        opacity: 0.90; 
+       
       }
     }       
     @media only screen and (min-device-width: 1080px) and (max-device-width: 1920px){
-      .i-right > :nth-child(1) {
-        left: -10%;
-        top: -10%;
-        height:95%;
-        width:105%;
-      }
-      .i-right > :nth-child(2) {
-        top: -14rem;
-        transform: scale(0.67);
-        left: -4rem;
-        height:150%;
-        width:100%;
-      }
+    
       .Intro .i-right .crop{
-        width: 27%;
-        height: 46%;
+        width: 80%;
+        height: 110%;
         z-index: 0.5;
-        top: 15%;
+        top: -25%;
         left: 23%;
-        border-radius: 10px;
-        border-width: 0cm;
-        border-color: #fdc50f;
-        opacity: 0.90; 
       }
       .i-name {
         display: flex;
@@ -221,79 +203,24 @@
         color: var(--gray);
         margin-top: 10px;
       }
+      .i-left{
+        top: 130px;
+      }
     }
     @media only screen and (min-device-width: 768px) and (max-device-width: 1366px){
-      .i-right > :nth-child(2) {
-        top: -8rem;
-        transform: scale(0.67);
-        left: -2.5rem;
-        height:150%;
-        width:100%;
-      }
-    }
-    /* @media only screen and (min-width: 768px){
-      .Intro {
-        display: flex;
-        height: 77vh;
-        margin-top: 6rem;
-      }
-      
-    
-      .i-left {
-        display: flex;
-        position: relative;
-        flex: 1;
-        flex-direction: column;
-        gap: 2rem;
-        margin-left: 10px;
-      }
-      .i-name {
-        display: flex;
-        flex-direction: column;
-        gap: 0.25rem;
-      }
-      .i-right > :nth-child(1) {
-        width:160%;
-        height:100%;
-        left: -26%;
-        top: -10%;
-        max-zoom: 1.5;
-      }
-      .i-right > :nth-child(2) {
-        top: -22%;
-        height:120%;
-        width: 150%;
-        transform: scale(0.67);
-        left: -2rem;
-        max-zoom: 1.5;
-      }
-      .i-right > :nth-child(4) {
-        transform: scale(0.62);
-        top: -22%;
-        left: -10%;
-        border-radius: 50%;
-        padding: 0;
-      }
       .Intro .i-right .crop{
-        width: 39%;
-        height: 40%;
+        width: 70%;
+        height: 120%;
         z-index: 0.5;
-        top: 19%;
-        left: 35%;
+        top: -28%;
+        left: 23%;
         border-radius: 10px;
         border-width: 0cm;
-        border-color: #fdc50f;
-        opacity: 0.90;
+        /* border-color: #fdc50f; */
+        opacity: 0.90; 
       }
-      .i-icons{
-        margin-top: -20px;
+      .i-left{
+        top: 40px;
       }
-      .i-name > :nth-child(3) {
-        font-weight: 300;
-        font-size: 20px;
-        color: var(--gray);
-        margin-top: 10px;
-        align-self: center;
-      }
-    } */
-  
+    }
+   
