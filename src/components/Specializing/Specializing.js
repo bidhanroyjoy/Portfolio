@@ -67,7 +67,7 @@ const Specializing = () => {
     },
     {
       skillName: "Github",
-      desc: "Hands on experience in Redux",
+      desc: "Hands on experience in Github",
       value: 85,
       textColor: colors.primaryColor,
       pathColor: "#54e346",
