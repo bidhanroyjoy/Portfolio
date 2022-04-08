@@ -183,20 +183,20 @@
     @media only screen and (min-device-width: 1080px) and (max-device-width: 1920px){
       .i-right > :nth-child(1) {
         left: -10%;
-        top: -12%;
-        height:100%;
-        width:100%;
+        top: -10%;
+        height:95%;
+        width:105%;
       }
       .i-right > :nth-child(2) {
-        top: -7rem;
+        top: -14rem;
         transform: scale(0.67);
         left: -4rem;
-        height:120%;
+        height:150%;
         width:100%;
       }
       .Intro .i-right .crop{
         width: 27%;
-        height: 42%;
+        height: 46%;
         z-index: 0.5;
         top: 15%;
         left: 23%;
@@ -220,6 +220,15 @@
         font-size: 29px;
         color: var(--gray);
         margin-top: 10px;
+      }
+    }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1366px){
+      .i-right > :nth-child(2) {
+        top: -8rem;
+        transform: scale(0.67);
+        left: -2.5rem;
+        height:150%;
+        width:100%;
       }
     }
     /* @media only screen and (min-width: 768px){
